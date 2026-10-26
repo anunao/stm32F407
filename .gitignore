@@ -1,0 +1,29 @@
+# ===== Keil MDK 编译输出 =====
+MDK-ARM/FreeRTOS_STM32/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.sct
+*.iex
+*.tra
+*.lst
+MDK-ARM/*.htm
+
+# ===== Keil 用户界面布局（含本机用户名）=====
+*.uvguix.*
+*.uvguix
+
+# ===== 编辑器 / 工具本地配置 =====
+.vscode/
+.workbuddy/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini

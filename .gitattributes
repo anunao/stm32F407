@@ -1,0 +1,15 @@
+# 源码统一使用 LF，避免跨平台换行符抖动
+* text=auto
+*.c    text eol=lf
+*.h    text eol=lf
+*.md   text eol=lf
+
+# Keil 工程文件保持 CRLF，避免 Keil 打开异常
+*.uvprojx text eol=crlf
+*.uvoptx  text eol=crlf
+*.sct     text eol=crlf
+
+# 二进制文件不做换行转换
+*.axf binary
+*.hex binary
+*.bin binary
